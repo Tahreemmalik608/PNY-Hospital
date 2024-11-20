@@ -1,0 +1,83 @@
+.box1{
+    width: 263px;
+    height: 400px;
+    border: solid #9B1212 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  .boxes{
+    margin-left: 100px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  .picc1{
+    width: 255px;
+    height: 150px;
+    
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  
+   
+  }
+  
+  .info1{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .info2{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .info3{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .info4{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .info5{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .info6{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+  }
+  .content1{
+   text-align: center;
+  }
+  .content2{
+    text-align: center;
+  }
+  .content3{
+    text-align: center;
+  }
+  .content4{
+    text-align: center;
+  }
+  .content5{
+    text-align: center;
+  }
+  .content6{
+    text-align: center;
+  }
+  .tap{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 25px;
+    background-color: #9B1212;
+    color: white;
+    border-radius: 10px;
+    width:100%;
+    box-shadow: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }

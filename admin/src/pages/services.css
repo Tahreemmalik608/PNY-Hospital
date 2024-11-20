@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(197, 194, 194);
+
+}
+/* .upperimag{
+    height: 100%;
+    width: 100%;
+    background-image: url('');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+} */
+.blue-nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 2, 73);
+}
+.user{
+    font-size: 35px;
+    margin-left:96%;
+    color: white;
+    margin-top: 15px;
+}
+.box{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+h2{
+    color: white;
+    align-items: center;
+}
+.btn{
+    height: 50px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+.serve{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: center;
+    font-size: 15px; 
+  }
+  
+
+  .white-row {
+    background-color: white;
+  }
+  
+  .gray-row {
+    background-color: rgb(243, 241, 241); 
+  }
+  td input {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+  
+.styled-button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; 
+}
+
+
+.checkmark {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+
+.crossmark {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+.container{
+    margin-top: 50px;
+    
+}
+.srfooter{
+    margin-top: 150px;
+    width: 100%;
+    height: 23px;
+    background-color: rgb(4, 4, 77);
+    color: rgb(41, 41, 250);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.Powered{
+    margin-right: 10px;
+   
+}
+
+  

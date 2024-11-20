@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sidebar-content a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.sidebar-content a:hover {
+  background-color: blue;
+}
+
+.sidebar:hover~.main-content {
+  margin-left: 200px;
+  /* Margin for expanded sidebar */
+}
+.card1{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  /* margin-left: 310px; */
+  border-radius: 12px;
+}
+.card2{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(238, 205, 142);
+  border-radius: 12px;
+}
+.card3{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(203, 237, 153);
+  border-radius: 12px;
+}
+.card4{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(240, 147, 147);
+  border-radius: 12px;
+}
+.icon{
+  font-size: 60px;
+  color: white;
+  margin-left: 70px;
+  padding-top: 20px;
+
+}
+.flex hr{
+  margin-left:15px ;
+  width: 170px;
+  margin-top: 10px;
+}
+.flex p{
+  margin-left: 52px;
+  margin-top: 12px;
+}
+.flex h2{
+  margin-left: 85px;
+  margin-top: 10px;
+}
+.flex{
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+  justify-content: center;
+  margin-left: 180px;
+}
